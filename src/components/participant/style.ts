@@ -2,28 +2,33 @@ import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
     container: {
-        width: '100%',
+        width: '90%',
         backgroundColor: '#B6B6B6',
         borderRadius: 5,
         flexDirection: 'row',
         alignItems: 'center',
         marginBottom: 10,
+        marginLeft: 20
     },
-    name: {
-        color: '#FFF',
-        flex: 1,
-        fontSize: 18,
-        marginLeft: 15
-    },
-    btn: {
+
+    btnCircle: {
+        width: 30,
         height: 50,
-        width: 50,
-        backgroundColor: "#FF0000",
+        alignItems: 'center',
+        justifyContent: 'center'
+    },
+
+    text: {
+        flex: 1,
+        height: 60,
         alignItems: 'center',
         justifyContent: 'center',
     },
-    btnText: {
-        fontWeight: 'bold',
-        fontSize: 25
-    }
+
+    btnTrash: {
+        width: 30,
+        height: 50,
+        alignItems: 'center',
+        justifyContent: 'center'
+    },
 })

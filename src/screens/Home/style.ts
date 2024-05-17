@@ -3,36 +3,68 @@ import { StyleSheet } from "react-native";
 export const styles = StyleSheet.create({
     container: {
       flex: 1,
-      backgroundColor: '#F6F6F6',
+      backgroundColor: '#333333',
       padding: 10,
     },
-    header: {
-        fontSize: 40,
-        fontWeight: 'bold',
-        marginTop: 50
+    logo: {
+        height: 150,
+        width: '100%',
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'center',
+        marginTop: 70,
+        marginBottom: 20,
+        backgroundColor: '#0D0D0D',
+
     },
-    name: {
-        fontSize: 18,
-        fontWeight: '100',
+    boxInput: {
+        flexDirection: 'row',
+        justifyContent: 'center',
+        marginBottom: 10,
+        position: 'absolute',
+        left: 10,
+        bottom: -15
     },
-    input: {
+    textInput: {
+        color: '#FFF',
         height: 50,
-        flex: 1,
-        backgroundColor: '#D6D6D6',
-        marginRight: 4,
+        backgroundColor: '#808080',
+        borderRadius: 5,
+        width: '80%',
+        marginRight: 5,
+        fontSize: 20,
         padding: 10
     },
     btn: {
-        height: 50,
-        width: 50,
-        backgroundColor: "#31CF67",
+        backgroundColor: '#4EA8DE',
+        borderRadius: 5,
         alignItems: 'center',
         justifyContent: 'center',
+        height: 50,
+        width: 50
     },
-    form: {
-        width: '100%',
+    btnText: {
+        color: '#FFF',
+        fontSize: 35,
+        fontWeight: 'bold'
+    },
+    headerList: {
         flexDirection: 'row',
-        marginTop: 30,
-        marginBottom: 40
+        justifyContent: 'space-between',
+        margin: 16,
+        marginBottom: 20
+    },
+    headerListText: {
+        color: '#FFF',
+        fontSize: 18,
+        fontWeight: 'bold'
+    },
+    headerListCount: {
+        backgroundColor: '#808080',
+        color: '#FFF',
+        fontSize: 18,
+        fontWeight: 'bold',
+        marginLeft: 5,
+        borderRadius: 7
     }
-  });
+})
