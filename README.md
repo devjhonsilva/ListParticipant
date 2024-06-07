@@ -32,5 +32,5 @@ choose which type of emulator and test the application.
 
 ## Feedback
 
-Se você tiver algum feedback, por favor nos deixe saber por meio de jonatansilvasantos@outlook.com
+If you have any feedback, please let us know at jonatansilvasantos@outlook.com
 
